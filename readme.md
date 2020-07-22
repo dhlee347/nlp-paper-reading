@@ -7,5 +7,7 @@ Kakao Brain에서 자연어처리(NLP)를 연구하는 팀에서 읽고 있는 �
 자연어처리에 대한 논문이 주가 되지만, 꼭 자연어처리 논문만을 읽지는 않습니다.
 
 ## 읽은 논문들
--  2020.07.15. [Optimizing Data Usage via Differentiable Rewards](review/Optimizing_Data_Usage_via_Differentiable_Rewards.md)
+
+- 2020.07.22 [Balancing Training for Multilingual NMT](review/Balancing_Training_for_Multilingual_NMT.md)
+- 2020.07.15. [Optimizing Data Usage via Differentiable Rewards](review/Optimizing_Data_Usage_via_Differentiable_Rewards.md)
 
