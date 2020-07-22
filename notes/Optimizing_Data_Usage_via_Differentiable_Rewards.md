@@ -15,7 +15,7 @@ ICML 2020
 ## Differentiable Data Selection
 ### Risk
 
-![image-20200722161258250](../image/Optimizing_Data_Usage_via_Differentiable_Rewards/risk.png)
+![image-20200722161258250](../images/Optimizing_Data_Usage_via_Differentiable_Rewards/risk.png)
 
 - 어떤 distribution P(X,Y)에 대하여 loss를 minimize 하는 theta를 찾고 싶다.
 - 어떤 distribution에 대하여 찾을 것인가?
@@ -31,24 +31,24 @@ ICML 2020
   - P(X, Y;psi)를 policy라고 간주하고,
   - Reward의 policy에 대한 expectation을 maximize 한다.
 
-    ![image](../image/Optimizing_Data_Usage_via_Differentiable_Rewards/scorer_objective.png)
+    ![image](../images/Optimizing_Data_Usage_via_Differentiable_Rewards/scorer_objective.png)
   - 위를 maximize하는 P(X,Y;psi)를 찾고 싶다고 생각해도 좋다.
 
 - R은 다음과 같이 정의된다.
 
-  ![image-20200722161550847](../image/Optimizing_Data_Usage_via_Differentiable_Rewards/reward_definition.png)
+  ![image-20200722161550847](../images/Optimizing_Data_Usage_via_Differentiable_Rewards/reward_definition.png)
 
 - 그러면 psi는 아래와 같이 update 하면 된다.
 
-  ![image](../image/Optimizing_Data_Usage_via_Differentiable_Rewards/psi_derivation.png)
+  ![image](../images/Optimizing_Data_Usage_via_Differentiable_Rewards/psi_derivation.png)
 
   - 이로부터 (3)식과 같아진다.
 
-    ![image](../image/Optimizing_Data_Usage_via_Differentiable_Rewards/psi_update.png)
+    ![image](../images/Optimizing_Data_Usage_via_Differentiable_Rewards/psi_update.png)
 
 - theta는 (4)식과 같이 update 하면 된다.
 
-  ![image](../image/Optimizing_Data_Usage_via_Differentiable_Rewards/theta_update.png)
+  ![image](../images/Optimizing_Data_Usage_via_Differentiable_Rewards/theta_update.png)
 
   이렇게 theta와 psi를 iterative 하게 training 할 수 있다.
 
@@ -79,7 +79,7 @@ ICML 2020
 
 
 ## Experiments
-![image](../image/Optimizing_Data_Usage_via_Differentiable_Rewards/table1.png)
+![image](../images/Optimizing_Data_Usage_via_Differentiable_Rewards/table1.png)
 - Uniform 보다는 잘 했다. (data selected uniformly)
 - SPCL은 쉬운 친구 부터 배우는 curriculum learning인데, 이는 dev set distribution과 상관 없이 train data의 "easiness"만 갖고 판단하기 때문에 성능이 떨어진다.
   - 특히 multilingual NMT에서는, train language는 high resource이고 dev language는 low resource라서 매우 다른 properties를 가질 것이다.
@@ -94,13 +94,13 @@ ICML 2020
 - Classification
   - train data에서는 class distribution의 balance가 안 맞지만 DDS는 balance를 맞춘다. 
 
-    ![image](../image/Optimizing_Data_Usage_via_Differentiable_Rewards/figure3.png)
+    ![image](../images/Optimizing_Data_Usage_via_Differentiable_Rewards/figure3.png)
   - 더 clearer한 그림에 weight를 더 준다.
 
-    ![image](../image/Optimizing_Data_Usage_via_Differentiable_Rewards/figure2.png)
+    ![image](../images/Optimizing_Data_Usage_via_Differentiable_Rewards/figure2.png)
 - NMT
   - TCS+DDS를 했을 때 초반의 TCS는 target LRL과 largest vocab. overlap을 가진 HRL을 높이지만 training 하면서 percentage가 줄어든다.
   - DDS가 여러 language를 균형있게 보면서 이득을 취해간다고 볼 수 있겠다.
 
-    ![image](../image/Optimizing_Data_Usage_via_Differentiable_Rewards/figure4.png)
+    ![image](../images/Optimizing_Data_Usage_via_Differentiable_Rewards/figure4.png)
 

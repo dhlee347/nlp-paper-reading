@@ -32,15 +32,15 @@ ACL 2020
 
 - Overall multilingual training objective
 
-  ![image-20200722101924717](../image/Balancing_Training_for_Multilingual_NMT/overall_multilingual_training_objective.png)
+  ![image-20200722101924717](../images/Balancing_Training_for_Multilingual_NMT/overall_multilingual_training_objective.png)
 
 - Minimizing the average of dev risks
 
-  ![image-20200722102054791](../image/Balancing_Training_for_Multilingual_NMT/dev_risks.png)
+  ![image-20200722102054791](../images/Balancing_Training_for_Multilingual_NMT/dev_risks.png)
 
 - MultiDDS objective
 
-  ![image-20200722102147313](../image/Balancing_Training_for_Multilingual_NMT/multi_dds_objective.png)
+  ![image-20200722102147313](../images/Balancing_Training_for_Multilingual_NMT/multi_dds_objective.png)
 
 자세한 formulation은 [DDS 논문](Optimizing_Data_Usage_via_Differentiable_Rewards)을 참고하는 것이 좋다.
 
@@ -48,7 +48,7 @@ ACL 2020
 
 - Main result; M2O and O2M multilingual NMT
 
-  ![image-20200722102244397](../image/Balancing_Training_for_Multilingual_NMT/experiment_main_result.png)
+  ![image-20200722102244397](../images/Balancing_Training_for_Multilingual_NMT/experiment_main_result.png)
 
   - MultiDDS가 baseline은 3/4에서 이겼고, MultiDDS-S가 MultiDDS를 3/4에서 이겼다.
 
@@ -58,7 +58,7 @@ ACL 2020
   - Low: the worst dev perplexity를 갖는 4개 언어에 대해 optimize
   - High: the best dev perplexity를 갖는 4개 언어에 대해 optimize
 
-  ![image-20200722102636206](../image/Balancing_Training_for_Multilingual_NMT/experiment_difference_btw_low_high.png)
+  ![image-20200722102636206](../images/Balancing_Training_for_Multilingual_NMT/experiment_difference_btw_low_high.png)
 
   - Ordered on the x-axis from left to right in decreasing perplexity
   - High는 오른쪽의 high-performing language에 대해 잘 하고, Low는 왼쪽의 low-performing language에 대해 잘 하는 경향을 보인다. (O2M setting에서 좀더 consistent 하다.)
