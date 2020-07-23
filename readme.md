@@ -9,6 +9,7 @@ Kakao Brain에서 자연어처리(NLP)를 연구하는 팀에서 읽고 있는 �
 ## 읽은 논문들
 
 - 2020.07.22 [Balancing Training for Multilingual NMT](notes//Balancing_Training_for_Multilingual_NMT.md)
+- 2020.07.22 [TaBERT: Pretraining for Joint Understanding of Textual and Tabular Data](notes//TaBERT.md)
 - 2020.07.15. [Optimizing Data Usage via Differentiable Rewards](notes/Optimizing_Data_Usage_via_Differentiable_Rewards.md)
 - 2020.07.15 [Language-agnostic BERT Sentence Embedding](notes/LaBSE.md)
 - 2020.07.08 [PLATO & PLATO-2](notes/PLATO.md)
