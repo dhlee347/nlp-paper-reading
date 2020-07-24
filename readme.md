@@ -19,3 +19,9 @@
 - 2020.03.25 [XLU: XNLI, XLM, XLM-R (English)](notes/XLU.md)
 - 2020.02.05 [Meena (English)](notes/Meena.md)
 
+## Contributors
+
+- [Jiyeon Ham](https://github.com/hammouse) (maintainer)
+- [Kyubyong Park](https://github.com/Kyubyong)
+- [YJ Choe](https://github.com/yjchoe)
+- [Hoon Heo](https://github.com/Huffon)
