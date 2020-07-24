@@ -11,11 +11,13 @@ OpenAI (2020)
 ### Other Reviews
 
 There are more than enough reviews and news articles online related to GPT-3. Here are some:
-
 - [OpenAI's GPT-3 Language Model: A Technical Overview](https://lambdalabs.com/blog/demystifying-gpt-3/)
-- [GPT-3: a disappointing paper](https://www.lesswrong.com/posts/ZHrpjDc3CepSeeBuE/gpt-3-a-disappointing-paper)
 - [Medium Blog Review](https://blog.inten.to/gpt-3-language-models-are-few-shot-learners-a13d1ae8b1f9)
-- [Video Review](https://youtu.be/Mq97CF02sRY)
+- [GPT-3: a disappointing paper](https://www.lesswrong.com/posts/ZHrpjDc3CepSeeBuE/gpt-3-a-disappointing-paper)
+
+*(2020.07 Update)* There has been even more hype around GPT-3 after we reviewed the paper last month. 
+Here is an MIT Technology Review article that came out more recently:
+- [OpenAI’s new language generator GPT-3 is shockingly good—and completely mindless](https://www.technologyreview.com/2020/07/20/1005454/openai-machine-learning-language-generator-gpt-3-nlp/)
 
 ## Summary
 
@@ -37,7 +39,7 @@ There are more than enough reviews and news articles online related to GPT-3. He
 2. Large language models can exploit spurious correlations in these task-specific labeled datasets, such that fine-tuning limits generalizability.
 3. Humans do not require large supervised datasets to learn most language tasks.
 
-**Language models should be tested on few-shot, one-shot, or zero-shot settings*.**
+**Language models should be tested on few-shot, one-shot, or zero-shot settings.**
 
 So the paper examines the performance of GPT-3 in these three settings across numerous previous and new NLP tasks.
 
@@ -73,7 +75,7 @@ All results are based on three settings, all with in-context learning (no gradie
 
 Full fine-tuning is left for future work, although it has already been noted in the introduction that full fine-tuning has major limitations anyway.
 
-### Beyond SOTA
+### SOTA
 
 Previous SOTAs in parentheses.
 
