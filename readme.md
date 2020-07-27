@@ -21,7 +21,7 @@
 
 ## Contributors
 
-- [Jiyeon Ham](https://github.com/hammouse) (maintainer)
+- [Jiyeon Ham](https://github.com/hammouse)
 - [Kyubyong Park](https://github.com/Kyubyong)
 - [YJ Choe](https://github.com/yjchoe)
 - [Hoon Heo](https://github.com/Huffon)
