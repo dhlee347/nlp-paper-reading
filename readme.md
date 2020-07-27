@@ -21,7 +21,7 @@
 
 ## Contributors
 
-- [Kyubyong Park](https://github.com/Kyubyong)
+- [Kyubyong Park](https://github.com/Kyubyong) (kyubyong.park@kakaobrain.com)
 - [Jiyeon Ham](https://github.com/hammouse)
 - [YJ Choe](https://github.com/yjchoe)
 - [Hoon Heo](https://github.com/Huffon)
